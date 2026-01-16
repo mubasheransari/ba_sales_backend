@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "role": "admin",
+      "name": "System Admin",
+      "email": "admin@baprogram.com",
+      "passwordHash": "$2a$10$Ubswv6q5xu06HhcFoFFhluZLMEh2peOid5ZlTTRqo1G.xcgRJz4/6",
+      "isApproved": true,
+      "createdAt": "2026-01-16T10:19:03.167Z"
+    },
+    {
+      "id": 2,
+      "role": "supervisor",
+      "name": "mubasher",
+      "email": "mubasher@yopmail.com",
+      "cnicNumber": "32132131231231",
+      "city": "karachi",
+      "passwordHash": "$2a$10$/s98ufg4aaC1MfSiqnnw1ewThk0AhITJXfoPk06lCKd6xs8TX1FPi",
+      "isApproved": true,
+      "createdAt": "2026-01-16T10:39:52.182Z"
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "name": "Lahore"
+    }
+  ],
+  "locations": [],
+  "products": []
+}
