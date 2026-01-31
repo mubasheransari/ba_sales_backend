@@ -6,6 +6,7 @@ const adminRoutes = require('./routes/admin.routes');
 const citiesRoutes = require('./routes/cities.routes');
 const locationsRoutes = require('./routes/locations.routes');
 const productsRoutes = require('./routes/products.routes');
+const journeyPlansRoutes = require('./routes/journey_plans.routes');
 
 const app = express();
 
@@ -22,5 +23,6 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/cities', citiesRoutes);
 app.use('/api/locations', locationsRoutes);
 app.use('/api/products', productsRoutes);
+app.use('/api/journey-plans', journeyPlansRoutes);
 
 module.exports = app;
