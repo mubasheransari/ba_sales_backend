@@ -19,12 +19,28 @@
       "passwordHash": "$2a$10$/s98ufg4aaC1MfSiqnnw1ewThk0AhITJXfoPk06lCKd6xs8TX1FPi",
       "isApproved": true,
       "createdAt": "2026-01-16T10:39:52.182Z"
+    },
+    {
+      "id": 3,
+      "name": "John Doe",
+      "email": "john@test.com",
+      "role": "employee",
+      "city": "Karachi",
+      "employeeCnic": "12345-1234567-1",
+      "location": "Gulshan",
+      "isApproved": true,
+      "passwordHash": "$2a$10$Z5l5QADUnrh4iIeoRHGJkOw3./u5DMHQyIQluh1i3esCcM9RvU53K",
+      "createdAt": "2026-02-03T06:26:50.994Z"
     }
   ],
   "cities": [
     {
       "id": 1,
       "name": "Lahore"
+    },
+    {
+      "id": 2,
+      "name": "karachi"
     }
   ],
   "locations": [
@@ -37,6 +53,16 @@
       "lat": 80.75498,
       "lng": 67.543543,
       "createdAt": "2026-01-19T06:11:30.742Z"
+    },
+    {
+      "id": 2,
+      "martName": "grace super market",
+      "area": "airport",
+      "cityId": 2,
+      "cityName": "karachi",
+      "lat": 67,
+      "lng": 65,
+      "createdAt": "2026-02-02T11:31:38.185Z"
     }
   ],
   "products": [
@@ -55,15 +81,9 @@
       "id": 1,
       "supervisorId": 2,
       "periodType": "monthly",
-      "startDate": "2026-01-31",
-      "endDate": "2026-03-01",
+      "startDate": "2026-02-02",
+      "endDate": "2026-03-03",
       "days": {
-        "2026-01-31": [
-          "1"
-        ],
-        "2026-02-01": [
-          "1"
-        ],
         "2026-02-02": [
           "1"
         ],
@@ -147,6 +167,12 @@
         ],
         "2026-03-01": [
           "1"
+        ],
+        "2026-03-02": [
+          "1"
+        ],
+        "2026-03-03": [
+          "1"
         ]
       },
       "locationsSnapshot": {
@@ -160,7 +186,7 @@
       "selectedDaysCount": 30,
       "copiedFrom": null,
       "createdAt": "2026-01-31T10:41:25.643Z",
-      "updatedAt": "2026-01-31T10:41:36.514Z"
+      "updatedAt": "2026-02-02T10:52:35.770Z"
     }
   ]
 }

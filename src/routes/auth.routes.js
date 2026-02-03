@@ -33,7 +33,8 @@ router.post('/signup', async (req, res) => {
   const passwordHash = await bcrypt.hash(password, 10);
 
   const user = {
-    id: nextId('u'),
+    id: nextId(db.users),
+//id: nextId('u'),
     name: String(name).trim(),
     email: String(email).trim().toLowerCase(),
     role: 'employee',
